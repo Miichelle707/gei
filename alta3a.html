@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario gei</title>
+    <link rel="stylesheet" href="alta.css">
+    <script defer src="dropdown.js"></script>
+    <script src="https://kit.fontawesome.com/2f0e89e59b.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+</head>
+<body>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="Index.html"><img src="Logo.jpg" alt="PRO-IN Comercializadora Industrial"></a>
+            </div>
+            <nav>
+                <a href="Index_proin.html">Inicio</a>
+                <a href="Productos.html">Producto</a>
+                <a href="Catalogo.html">Catálogo</a>    
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Contacto.html">Contacto</a>
+                <a href="#" class="account-link">Mi cuenta</a>
+                <div class="profile-dropdown">
+                    <div class="profile-header">
+                        <img src="./904181626bfdb634a7842c3ff434958b.jpg" alt="Profile Picture" class="profile-pic">
+                        <div class="profile-info">
+                            <span class="profile-name">Richyy</span>
+                        </div>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li><a href="alta3a.html">Agregar perfil</a></li>
+                        <li><a href="modif.html">Modificar Perfil</a></li>
+                        <li><a href="baja.html">Eliminar cuenta</a></li>
+                        <li><a href="#">Notificaciones <span class="notification-count">1</span></a></li>
+                        <li><a href="#">Desconectar</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+<main>
+    <div class="container-alta">
+        <h1>Registro de usuario gei</h1>
+        <form action="alta3a.php" method="post">
+            <input type="text" name="usuario" id="usuario" placeholder="Usuario" required />
+            <input type="password" name="contra" id="contra" placeholder="Password" required />
+            <input type="submit" value="Grabar" />
+        </form>
+        <a href="Index.html">Volver al Inicio</a>
+    </div>
+</main>
+
+
+     <!-- Pie de pagina -->
+     <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="Logo.jpg" alt="PRO-IN Comercializadora Industrial">
+            </div>
+            <div class="footer-info">
+                <p>COMERCIALIZADORA INDUSTRIAL TODO PARA LA INDUSTRIA</p>
+                <a href="tel:+52 449-310-3589"><i class="fas fa-phone"></i> +52 449-310-3589</a>
+                <a href="mailto:proinagscomercializadora@outlook.com"><p><i class="fas fa-envelope"></i> proinagscomercializadora@outlook.com</p></a>
+                <a href="geo:"><p><i class="fas fa-map-marker-alt"></i> AV. Poliducto No. 512 Fracc. Mujeres Ilustres, Aguascalientes, AGS. C.P. 20290</p></a>
+            </div>
+            <div class="footer-ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3025.8135009306775!2d-102.25424166157262!3d21.84950130380353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDUwJzU3LjciTiAxMDLCsDE1JzEyLjAiVw!5e0!3m2!1ses-419!2smx!4v1719795575042!5m2!1ses-419!2smx" width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-copy">
+                <p>© 2024 Pro-In, Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

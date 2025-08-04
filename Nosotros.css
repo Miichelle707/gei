@@ -1,0 +1,228 @@
+/* Index  */
+body {
+    font-family: 'Georgia', cursive;
+    margin: 0;
+    line-height: 1.6;
+    padding: 0;
+    background-color: #fff8dc; /* beige claro */
+    color: #030303;
+
+    background-image: url('fondiux.png'); /* tu imagen decorativa */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2000px; /* tamaño ajustado */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: #6C1616; /* vino oscuro */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 90px;
+    margin-left: 45px;
+}
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+    color: #fce6ef; /* rosa pálido */
+}
+
+nav a:hover {
+    color: #fff8e7; /* crema claro */
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 15px 0px;
+    }
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Pie de pagina */
+footer {
+    background-color: #6C1616; /* vino */
+    color: #f6f1f3; /* rosa pálido */
+    padding: 20px 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer a:hover {
+    color: #fff8e7; /* crema */
+}
+
+.footer-logo img {
+    height: 80px;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-ubicacion {
+    text-align: center;
+}
+
+.footer-ubicacion img {
+    max-width: 80%;
+    height: auto;
+}
+
+.footer-copy {
+    text-align: center;
+    max-width: 80%;
+    padding: 10px 0;
+    background-color: #6C1616; /* vino */
+    color: #f7f2f4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.section {
+    background: #de8aab; /* rosa claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.container-titulo {
+    text-align: center;
+    font-size: 2em;
+    margin: 5px 0;
+    animation: fadeIn 2s ease-in-out;
+    color: #6C1616; /* vino */
+}
+
+.container-titulo:hover {
+    color: #fff8e7; /* crema */
+}
+
+.container-sub {
+    text-align: center;
+    margin: 20px 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.container-sub h3 {
+    margin: 0;
+    font-size: 1.75em;
+    color: #6C1616; /* vino */
+}
+
+.container-somos {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #de8aab; /* rosa claro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;
+    color: #030303;
+}
+
+.container-somos p {
+    text-align: justify;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.section .icon {
+    margin-bottom: 10px;
+}
+
+.section .icon img {
+    width: 5px;
+    height: 40px;
+}
+
+.section h2 {
+    color: #6C1616; /* vino */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section p, .section ul {
+    font-size: 1em;
+    color: #333;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin: 5px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.section ul li:before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #6C1616; /* vino */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

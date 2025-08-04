@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCTOS </title>
+    <link rel="stylesheet" href="StyleProduct.css">
+    
+    
+    <link rel="stylesheet" href="dropdown.css">
+    <script defer src="dropdown.js"></script>
+    <script src="https://kit.fontawesome.com/2f0e89e59b.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./Diseño Pays.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="Index.html"><img src="Pays.jpeg" alt="La Casa De Los Pays"></a>
+        </div>
+        <nav>
+            <a href="Index_proin.html">Inicio</a>
+            <a href="Productos.html">Producto</a>
+            <a href="Catalogo.html">Catálogo</a>    
+            <a href="Nosotros.html">Nosotros</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+    </main>
+</body>
+
+    
+<style>
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', cursive;
+  background-color: #fffbe6;
+
+  background-image: url('fondiux.png'); /* tu imagen decorativa */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2000px; /* tamaño ajustado */
+}
+
+  .content {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .content h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+  }
+
+  .content h2 {
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 40px;
+  }
+
+  .productos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .producto {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 60px; /* espacio entre imagen y texto */
+  justify-content: flex-start; /* alineados uno junto al otro */
+}
+
+
+
+  .producto img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  }
+
+  .etiqueta {
+    background-color: #f89191;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: background-color 0.3s;
+  }
+
+  .etiqueta:hover {
+    background-color: #d66b6b;
+  }
+
+  .etiqueta a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Alternancia: etiquetas y fotos cambiando de lado */
+  .producto.izquierda {
+    flex-direction: row;
+  }
+
+  .producto.derecha {
+    flex-direction: row-reverse;
+  }
+
+  .mensaje-final {
+    margin-top: 60px;
+    font-size: 1em;
+    color: #333;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 768px) {
+    .producto {
+      flex-direction: column !important;
+      text-align: center;
+    }
+
+    .etiqueta {
+      margin-top: 15px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<main class="content">
+  <h1>Nuestros Productos</h1>
+  <h2>"Sabemos cómo hacerlo especial".</h2>
+
+  <div class="productos-container">
+
+    <div class="producto izquierda">
+      <img src="pastel.jpg" alt="Pastel">
+      <span class="etiqueta"><a href="Catalogo.html">Pasteles...</a></span>
+    </div>
+
+    <div class="producto derecha">
+      <img src="galletita.jpg" alt="Galletas">
+      <span class="etiqueta"><a href="Catalogo.html">...Galletas</a></span>
+    </div>
+
+    <div class="producto izquierda">
+      <img src="gelatina.jpg" alt="Gelatina">
+      <span class="etiqueta"><a href="Catalogo.html">Gelatinas...</a></span>
+    </div>
+
+    <div class="producto derecha">
+      <img src="postre.jpg" alt="Postre">
+      <span class="etiqueta"><a href="Catalogo.html">...Postres</a></span>
+    </div>
+
+  </div>
+
+  <div class="mensaje-final">
+    <p><strong>¿Buscabas algo más?</strong><br>
+    Tenemos un amplio menú en cada uno de nuestros productos,<br>
+    si requiere alguna cotización o producto especial,<br>
+    se puede comunicar con nosotros y con gusto atenderemos su llamada.</p>
+  </div>
+</main>
+
+
+  <footer>
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="Pays.jpeg" alt="La Casa De Los Pays">
+    </div>
+    <div class="footer-info">
+      <p>La mejor repostería</p>
+      <a href="tel:+524491010997"><i class="fas fa-phone"></i> +52 449-101-0997</a><br>
+      <a href="mailto:rosigomezgtz@gmail.com"><i class="fas fa-envelope"></i> rosigomezgtz@gmail.com</a><br>
+      <a href="geo:"><i class="fas fa-map-marker-alt"></i> Calle Lima n.703, Valle Dorado, Aguascalientes, AGS. C.P. 20235</a>
+    </div>
+    <div class="footer-ubicacion">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.824909227189!2d-102.31077652494389!3d21.864288380002435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ec293a68932d%3A0x26bb8b89c7b5306a!2sC.%20Lima%20703%2C%20Valle%20Dorado%2C%2020235%20Aguascalientes%2C%20Ags.!5e0!3m2!1ses-419!2smx!4v1753245115571!5m2!1ses-419!2smx" width="400" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="footer-copy">
+    <p>© 2025 La Casa De Los Pays, Todos los derechos reservados.</p>
+  </div>
+</footer>

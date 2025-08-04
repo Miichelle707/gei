@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo - La Casa de los Pays</title>
+  <style>
+    body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', cursive;
+  background-color: #fffbe6;
+
+  background-image: url('fondiux.png'); /* tu imagen decorativa */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2000px; /* tamaño ajustado */
+}
+
+    header {
+      background-color: #6b0c0c;
+      color: white;
+      padding: 10px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo img {
+      height: 80px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 30px;
+    }
+
+    h2 {
+      color: #6b0c0c;
+      border-bottom: 3px solid #6b0c0c;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section p {
+      margin: 5px 0;
+    }
+
+    .box {
+      border: 2px solid #f08cb9;
+      padding: 15px;
+      margin-top: 10px;
+      background-color: #fcefe9;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .half {
+      flex: 1;
+      min-width: 300px;
+    }
+
+    .tabla-imagen {
+      border: 2px solid #6b0c0c;
+      padding: 10px;
+      background-color: #fcefe9;
+    }
+
+    .footer {
+  background-color: #6b0c0c;
+  color: white;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-logo img {
+  height: 80px;
+}
+
+.footer-info {
+  flex: 1;
+  text-align: center;
+  min-width: 250px;
+}
+
+.footer-info a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.footer-info a:hover {
+  color: #fff8e7;
+}
+
+.footer-ubicacion {
+  text-align: right;
+  min-width: 250px;
+}
+
+.footer-ubicacion iframe {
+  width: 100%;
+  max-width: 400px;
+  height: 150px;
+  border: 0;
+}
+
+.footer-copy {
+  text-align: center;
+  padding: 15px 10px 0;
+  background-color: #6C1616;
+  color: #f7f2f4;
+  font-size: 14px;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+        <div class="logo">
+            <a href="Index.html"><img src="Pays.jpeg" alt="La Casa De Los Pays"></a>
+        </div>
+        <nav>
+            <a href="Index_proin.html">Inicio</a>
+            <a href="Productos.html">Producto</a>
+            <a href="Catalogo.html">Catálogo</a>    
+            <a href="Nosotros.html">Nosotros</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+  <main>
+    <h2>NUESTRO MENÚ</h2>
+
+    <div class="section">
+      <h3>PASTELES (PRECIO P/PERSONA)</h3>
+      <div class="box">
+        <p>• Casero (vainilla, nuez, chocolate, naranja, marmoleado): $25</p>
+        <p>• Americano (vainilla, fresa, chocolate, nuez, naranja, mango, limón, coco, marmoleado, napolitano): $25</p>
+        <p>• Tres Leches (...): $30</p>
+        <p>• Cheesecake (...): $30</p>
+        <p>• Manzana: $35</p>
+        <p>• Zanahoria: $35</p>
+        <p>• Con helado (...): $40</p>
+      </div>
+    </div>
+
+    <div class="flex-container">
+      <div class="half">
+        <div class="section">
+          <h3>POSTRES INDIVIDUALES</h3>
+          <div class="box">
+            <p>• Cupcakes: $25</p>
+            <p>• Cake pops/trufas: $15</p>
+            <p>• Panqué: $180</p>
+            <p>• Otro (Consultar)</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>GELATINAS (PRECIO P/PORCIÓN INDIVIDUAL)</h3>
+          <div class="box">
+            <p>• Agua, leche, mosaico, con frutas: $15 (vaso de 8oz)</p>
+            <p>• Cremas (piña c/nuez, durazno, mango, piña c/nuez): $15 (vaso de 4oz)</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="section">
+          <h3>GALLETAS (PRECIO P/100G)</h3>
+          <div class="box">
+            <p>• Polvorón blanco: $30</p>
+            <p>• Canela: $30</p>
+            <p>• Nata: $30</p>
+            <p>• Chinas: $30</p>
+            <p>• Vainilla & chocolate de mantequilla: $30</p>
+            <p>• Avena: $30</p>
+            <p>• Chocochips: $30</p>
+            <p>• Pastaceas: $30</p>
+            <p>• Sándwich de chocolate: $35</p>
+            <p>• Sándwich de fresa: $35</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="half">
+        <div class="section">
+          <h3>PAYS</h3>
+          <div class="tabla-imagen">
+            <img src="tablita.png" alt="Tabla de precios de pays" style="width:40%;">
+          </div>
+        </div>
+  </main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="Pays.jpeg" alt="La Casa De Los Pays">
+    </div>
+
+    <div class="footer-info">
+      <p>La mejor repostería</p>
+      <a href="tel:+524491010997">📞 +52 449-101-0997</a>
+      <a href="mailto:rosigomezgtz@gmail.com">📧 rosigomezgtz@gmail.com</a>
+      <a href="#">📍 Calle Lima n.703, Valle Dorado, Aguascalientes, AGS. C.P. 20235</a>
+    </div>
+
+    <div class="footer-ubicacion">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.824909227189!2d-102.31077652494389!3d21.864288380002435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ec293a68932d%3A0x26bb8b89c7b5306a!2sC.%20Lima%20703%2C%20Valle%20Dorado%2C%2020235%20Aguascalientes%2C%20Ags.!5e0!3m2!1ses-419!2smx!4v1753245115571!5m2!1ses-419!2smx"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <div class="footer-copy">
+    <p>© 2025 La Casa De Los Pays, Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+

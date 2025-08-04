@@ -1,0 +1,78 @@
+body {
+  background-color: #fff8dc; /* fondo crema claro */
+  font-family: sans-serif;
+  color: #030303;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+
+.linea-rosa {
+  background-color: #f47cb4;
+  height: 10px;
+  width: 180px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.icono-casa {
+  width: 100px;
+  height: auto;
+  float: right;
+  margin-top: -60px;
+}
+
+.seccion-contacto p {
+  line-height: 1.6;
+}
+
+.titulo-contacto {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.horario {
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.caja-rosa {
+  background-color: #e76aa9;
+  color: #2e003e;
+  padding: 15px;
+  width: 200px;
+  font-style: italic;
+  text-align: center;
+  float: right;
+  margin-top: -100px;
+  box-shadow: 2px 2px 4px #999;
+}
+
+.telefono {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.telefono img {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .caja-rosa {
+    float: none;
+    margin: 20px auto;
+  }
+
+  .icono-casa {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
